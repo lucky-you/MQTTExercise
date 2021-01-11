@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitleView">
+        <attr name="mTitle" format="string" />
+        <attr name="mTitleSize" format="dimension" />
+        <attr name="mTitleColor" format="color" />
+        <attr name="mBackgroundColor" format="reference|color" />
+        <attr name="mLeftSrc" format="reference" />
+        <attr name="mLeftVisible" format="boolean" />
+        <attr name="mLeftText" format="string" />
+        <attr name="mLeftTextColor" format="color" />
+        <attr name="mLeftTextMarginLeft" format="dimension" />
+        <attr name="mRightText" format="string" />
+        <attr name="mRightTextColor" format="color" />
+        <attr name="mRightImage" format="reference" />
+    </declare-styleable>
+
+
+    <attr name="MiniLoadingStyle" format="reference" />
+    <declare-styleable name="MiniLoadingView">
+        <!--loading控件的大小，默认32dp-->
+        <attr name="mlv_loading_view_size" format="dimension" />
+        <!--loading控件的颜色，默认白色-->
+        <attr name="mlv_loading_view_color" format="color" />
+    </declare-styleable>
+
+    <!--自定义密码输入框-->
+    <declare-styleable name="PasswordEditText">
+        <!-- 密码的个数 -->
+        <attr name="passwordNumber" format="integer" />
+        <!-- 密码圆点的半径 -->
+        <attr name="passwordRadius" format="dimension" />
+        <!-- 密码圆点的颜色 -->
+        <attr name="passwordColor" format="color" />
+        <!-- 分割线的颜色 -->
+        <attr name="divisionLineColor" format="color" />
+        <!-- 分割线的大小 -->
+        <attr name="divisionLineSize" format="color" />
+        <!-- 背景边框的颜色 -->
+        <attr name="bgColor" format="color" />
+        <!-- 背景边框的大小 -->
+        <attr name="bgSize" format="dimension" />
+        <!-- 背景边框的圆角大小 -->
+        <attr name="bgCorner" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ArcView">
+        <attr name="arcBgColor" format="color" />
+        <attr name="arcHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="etv_MaxLinesOnShrink" format="reference|integer" />
+        <attr name="etv_EllipsisHint" format="reference|string" /><!--default is ..-->
+        <attr name="etv_ToExpandHint" format="reference|string" /><!--"to expand" hint string, default is "Expand"-->
+        <attr name="etv_ToShrinkHint" format="reference|string" /><!--"to shrink" hint string, default is "Shrink"-->
+        <attr name="etv_GapToExpandHint" format="reference|string" /><!--gap between "toExpandHint" and "trimmed text"-->
+        <attr name="etv_GapToShrinkHint" format="reference|string" /><!--gap between "toShrinkHint" and "trimmed text"-->
+        <attr name="etv_EnableToggle" format="reference|boolean" /><!--if toggle the state when click ExpandTextView-->
+        <attr name="etv_ToExpandHintShow" format="reference|boolean" /><!--if show "toExpandHint"-->
+        <attr name="etv_ToShrinkHintShow" format="reference|boolean" /><!--if show "toShrinkHint"-->
+        <attr name="etv_ToExpandHintColor" format="reference|color" /><!--text color of "toExpandHint"-->
+        <attr name="etv_ToShrinkHintColor" format="reference|color" /><!--text color of "toShrinkHint"-->
+        <attr name="etv_ToExpandHintColorBgPressed" format="reference|color" /><!--background color if "toExpandHint" pressed-->
+        <attr name="etv_ToShrinkHintColorBgPressed" format="reference|color" /><!--background color if "toShrinkHint" pressed-->
+        <attr name="etv_InitState" format="enum"><!--init state, default is shrink-->
+            <enum name="shrink" value="0"/>
+            <enum name="expand" value="1"/>
+        </attr>
+    </declare-styleable>
+
+
+
+</resources>

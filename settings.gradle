@@ -1,0 +1,2 @@
+rootProject.name='MQTTExercise'
+include ':app', ':base_library'
